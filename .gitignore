@@ -1,14 +1,8 @@
-# Compiled class file
+# Compiled source files
 *.class
 
-# Log file
+# Log files
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
 
 # Package Files #
 *.jar
@@ -19,6 +13,90 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Maven specific files
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.idea/
+.project
+.classpath
+.settings/
+*.iml
+
+# Eclipse specific files
+*.classpath
+*.project
+*.settings/
+
+# IntelliJ specific files
+*.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code specific files
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Linux specific files
+*~
+
+# Node specific files (if you have any frontend work)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Gradle specific files (if you use Gradle for some builds)
+.gradle/
+build/
+
+# Spring Boot specific files
+.env
+*.env
+
+# Database specific files (if you are using any local DB)
+*.db
+
+# Temp files
+*.tmp
+*.temp
+*.swp
+
+# System file backups
+*.bak
+*.old
+
+# Generated files
+out/
+generated/
+
+# Files produced by build systems
+build/
+
+# JetBrains specific files
+.idea/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# Ignore classpath file
+classpath.**
+
+# Files that might be produced by some IDEs or text editors
+*.orig
+
+# Files for service dependencies
+.envrc
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
